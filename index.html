@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MovieProject</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+    src="https://kit.fontawesome.com/028465adf0.js"
+    crossorigin="anonymous"
+  ></script>
+  </head>
+  <body>
+   <div class="navbar">
+    <div class="content__wrapper--nav">
+        <div class="logo">
+           <img src="./assets/whitelogo.39850b27.png" alt="" class="logo">
+        </div>
+        <div class="links">
+            <a class="link" href="">Home</a>
+            <a class="link" href="">Find a Movie</a>
+            <a class="contact__btn" href=""><button class="contact__btn">Contact</button></a>
+        </div>
+    </div>
+        <div class="content__wrapper--header">
+            <h1 class="title">Browse Our Movies</h1>
+            <div class="input__wrapper">
+                <input type="text" placeholder="Search" onchange="onSearchChange(event)">
+            <div class="search__wrapper">
+                <i class="fas fa-search"></i>
+            </div>
+            </div>
+        </div>
+        <div class="overlay"></div>
+   </div>
+   <section class="search">
+    <div id="filter" class="content__wrapper--search">
+        <h1 class="search__info">
+            <span class="black">Search Results for</span>
+            <span>""</span>
+        </h1>
+    </div>
+    <div class="movies">
+        <div class="content__wrapper--movies">
+            <div class="movie__list">
+                <div class="movie">
+                <div class="movie__card">
+                    <div class="movie__card--wrapper">
+                        <h3>Movie:</h3>
+                        <p><b>Year:</b> 2XXX</p>
+                        <p><b>Rating:</b> PG-13</p>
+                        <p><b>Runtime:</b>136mins</p>
+                        <p><b>Genre:</b>Action</p>
+                        <p><b>Plot:</b></p>
+                    </div>
+                </div>
+
+                </div>
+               
+        </div>
+    </div>
+    </div>
+   </section>
+  </body>
+  <script src="index.js"></script>
+</html>
